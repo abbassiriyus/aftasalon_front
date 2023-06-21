@@ -1,0 +1,177 @@
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #222732;
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+
+.privacy a {
+  color: #ff4505;
+}
+
+.footer_body {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 5%;
+}
+
+.li {
+  color: #fff;
+  margin-bottom: 15px;
+  transition: .2s;
+  display: flex;
+  align-items: center;
+}
+
+.li span {
+  color: #ff6505;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.li:hover {
+  color: #ff6505;
+}
+
+.footer_info {
+  width: 340px;
+  color: #fff;
+}
+
+.footer_right {
+  display: flex;
+  margin-left: 10%;
+}
+
+.ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.ul2 {
+  margin-right: 100px;
+}
+
+.right_left {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.f_right_right>h2>span {
+  color: #ff6505;
+}
+
+.ff {
+  display: flex;
+}
+
+.f_right_right {
+  color: #fff;
+  text-align: right;
+}
+
+.f_right_right>h2 {
+  padding-bottom: 10px;
+}
+
+.f_right_right>.aaa {
+  display: none;
+}
+
+.f_right_right>p {
+  padding: 10px 0;
+}
+
+.f_bot {
+  display: none;
+}
+
+.icon2 {
+  background-color: #555;
+  color: #fff;
+}
+
+.privacy {
+  color: #fff;
+}
+
+.footer_bottom {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+@media (max-width: 1440px) {
+  .footer_right {
+    flex-direction: column-reverse;
+    margin: 0;
+  }
+
+  .ff {
+    flex-direction: column;
+  }
+
+  .footer_info {
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .footer_body {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .f_right_right {
+    text-align: center;
+  }
+
+  .footer_right {
+    display: none;
+  }
+
+  .f_right_right>.aaa {
+    display: block;
+  }
+
+  .f_bot {
+    display: block;
+    width: 100%;
+  }
+
+  .f_mobile {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    padding-bottom: 5px;
+    font-size: 16px;
+  }
+
+  .a {
+    padding-bottom: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer_bottom {
+    flex-direction: column;
+  }
+
+  .feat_left {
+    margin-top: 20px;
+  }
+
+  .privacy {
+    font-size: 14px;
+  }
+}

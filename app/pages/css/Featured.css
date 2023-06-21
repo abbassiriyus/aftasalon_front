@@ -1,0 +1,315 @@
+.featured {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+.featured_info {
+    font-size: 26px;
+    font-weight: 400;
+    color: #ff6505;
+}
+.featured_title {
+    font-size: 2.5vw;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.featured_body {
+    width: 100%;
+    display: flex;
+}
+.featured_left {
+    width: 48%;
+    height: 40vw;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-right: 12px;
+}
+.featured_left:hover .featured_img {
+    transform: scale(1.1);
+}
+.featured_right {
+    width: 52%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.featured_img {
+    width: 100%;
+    height: 80%;
+    min-height:150px;
+    transition: .8s;
+}
+.featured_box {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.featured_bottom {
+    width: 100%;
+    background-color: #222732;
+    position: absolute;
+    bottom: 0; left: 0;
+    color: #fff;
+    padding: 30px;
+}
+.featured_name {
+    font-size: 22px;
+    border-bottom: .5px solid #999;
+    padding-bottom: 20px;
+}
+.feat_price {
+    font-size: 30px;
+    margin-left: 10%;
+}
+.featured_box > p {
+    opacity: .5;
+}
+.feat_year {
+    background-color: #ff6505;
+    opacity: 1 !important;
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+.feat_card {
+    width: 46%;
+    position: relative;
+    cursor: pointer;
+    bottom: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 12px;
+}
+.feat_card:nth-child(3),
+.feat_card:nth-child(4) {
+    margin-top: 10px;
+}
+.featCard_bottom {
+    width: 100%;
+    background-color: #222732;
+    position: absolute;
+    bottom: 0; left: 0;
+    color: #fff;
+    padding: 10px 20px;
+}
+.featCard_box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    border-top: 1px solid #ccc;
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+.featCard_box > p {
+    color: #fff;
+    opacity: .5;
+    margin-right: 30px;
+}
+.featCard_name {
+    font-weight: 400;
+    font-size: 18px;
+}
+.featCard_price {
+    margin-top: 5px;
+    font-size: 20px;
+}
+.featCard_year {
+    background-color: #ff6505;
+    padding: 2px 8px;
+    border-radius: 5px;
+    opacity: 1 !important;
+}
+.feat_card:hover .featured_img {
+    transform: scale(1.1);
+}
+.feat_card > .featured_img {
+    height: 70%;
+}
+.mobileFeat_card {
+    display: none;
+}
+.feat_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-right: 25px;
+}
+.feat_btn {
+    font-weight: 400;
+    font-size: 18px !important;
+    padding: 10px !important;
+}
+.feat_left {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.feat_left > p {
+    color: #99a1b2;
+    margin-right: 20px;
+}
+.feat_tit {
+    display: none;
+    color: #99a1b2;
+}
+
+@media (max-width: 1660px) {
+    .featCard_bottom > h3 {
+        font-size: 15px;
+    }
+    .featCard_price {
+        font-size: 18px;
+    }
+    .featCard_box > p {
+        font-size: 15px;
+    }
+    .featCard_bottom {
+        padding: 5px 10px;
+    }
+}   
+
+@media (max-width: 1460px) {
+    .featured {
+        width: 90%;
+    }
+    .featured_left {
+        height: 50vw;
+    }
+    .featured_right {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .feat_card {
+        width: 90%;
+    }
+    .featured_box > p {
+        font-size: 13px;
+    }
+    .feat_price {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .featCard_price {
+        font-size: 16px;
+    }
+    .featCard_name {
+        font-size: 14px;
+    }
+    .featCard_box > p {
+        font-size: 12px;
+        margin: 0;
+    }
+    .featCard_name {
+        width: 100%;
+        height: 20px;
+        overflow: hidden;
+    }
+    .featCard_box {
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 991px) {
+    .featured_left,
+    .featured_right {
+        display: none;
+    }
+    .mobileFeat_card {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .featured_info {
+        text-align: center;
+    }
+    .featured_title {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .feat_card {
+        margin: 0 auto;
+        width: 45%;
+        height: 40vw;
+        min-width: 250px;
+        margin-top: 20px;
+    }
+    .feat_card > .featured_img {
+        height: 80%;
+    }
+}
+@media (max-width: 800px) {
+    .feat_card > .featured_img {
+        height: 69%;
+    }
+}
+@media (max-width: 580px) {
+    .feat_card {
+        width: 100%;
+        height: 330px;
+    }
+    .featured_img {
+        height: auto;
+        object-fit: cover;
+    }
+    .featCard_name {
+        font-size: 18px;
+    }
+    .featCard_box {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .featCard_box > p {
+        margin-right: 20px;
+    }
+    .feat_bottom {
+        flex-direction: column-reverse;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .feat_btn {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .feat_left {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+    .feat_tit {
+        display: flex;
+    }
+    .feat_left p {
+        display: none;
+    }
+}
+
+.feat_p{
+    width: 30%;
+    height: 40px;
+    transform: rotate(40deg);
+    text-align: center;
+    color: #000 !important;
+    position: absolute;
+    font-weight: 700 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999999999999999 !important;
+    top: -560px;
+    background: #ff6505 !important;
+    right: -40px;
+}

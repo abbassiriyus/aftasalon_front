@@ -1,0 +1,353 @@
+
+asosiy {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.all-button {
+    display: flex;
+    justify-content: space-around;
+    width: 320px;
+    margin-top: 30px;
+}
+
+.all-button button {
+    width: 140px;
+    font-size: 20px !important;
+    font-weight: 700;
+    color: #222732;
+    line-height: 21px;
+    padding: 22px 5px;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    border: solid 1px #e7edf3;
+}
+
+.form {
+    width: 600px;
+}
+
+.asos_form {
+    padding-top: 70px;
+    width: 500px;
+    margin-top: -30px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.all-button button {
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.inputs input {
+    font-family: 'Muli', Arial, Helvetica, sans-serif !important;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0 0 rgba(196, 196, 196, 0.24);
+    border: solid 1px #e7edf3;
+    height: 53px;
+    margin-top: 20px;
+    padding: 0 27px;
+    font-size: 15px;
+    color: #2f3b48;
+    width: 100%;
+    box-shadow: 1px 1px 0 0 rgba(196, 196, 196, 0.24);
+    outline: none;
+}
+
+.inputs {
+    margin-top: 30px;
+}
+
+
+.asos_form p {
+    height: 10px;
+    font-weight: 400;
+    font-size: 1.6vw;
+    margin-left: 20px;
+}
+
+.galoch {
+    width: 37%;
+    margin-top: 50px;
+}
+
+
+
+.p1 {
+    margin-left: -6% !important;
+}
+
+
+
+.galochk {
+    width: 60%;
+    margin-top: 20px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons button {
+    margin-top: 40px;
+    width: 40%;
+    height: 60px;
+    border: none;
+    border-radius: 45px;
+    font-weight: 700;
+    font-size: 1.5vw;
+}
+
+.yashil {
+    background: #03975C;
+    margin-left: 20px;
+    color: white;
+}
+
+.oq {
+    background-color: #FFFFFF;
+}
+
+@media(max-width:500px) {
+    .galoch {
+        width: 200px;
+    }
+
+    .galochk {
+        width: 200px;
+    }
+}
+
+@media(max-width:1000px) {
+    .asos_form p {
+        height: 10px;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .all-button button {
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .buttons button {
+        margin-top: 40px;
+        width: 40%;
+        height: 8vh;
+        border: none;
+        border-radius: 45px;
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    input {
+        padding-left: 20px;
+        font-size: 15px;
+        width: 90%;
+        height: 8vh;
+        background: #FFFFFF;
+        border-radius: 45px;
+        border: none;
+    }
+}
+
+@media(max-width:800px) {
+    .asos_form p {
+        height: 10px;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .all-button button {
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .buttons button {
+        margin-top: 40px;
+        width: 40%;
+        height: 8vh;
+        border: none;
+        border-radius: 45px;
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    input {
+        padding-left: 20px;
+        font-size: 15px;
+        width: 90%;
+        height: 8vh;
+        background: #FFFFFF;
+        border-radius: 45px;
+        border: none;
+    }
+
+    .asosiy {
+        display: block;
+    }
+
+    #fon {
+        margin-top: 0px;
+    }
+
+    #fon1 {
+        margin-top: 0px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .logo {
+        width: 100%;
+    }
+}
+
+@media(max-width:600px) {
+    .check2 p{
+        font-size: 14px;
+    }
+    .checkbox{
+        font-size: 14px;
+    }
+    .checkbox1 {
+        display: flex;
+        margin-top: 30px;
+        font-size: 14px;
+    }
+    .checkbox1 p{
+        font-size: 14px !important;
+    }
+}
+
+.checkbox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.checkbox1 {
+    display: flex;
+    margin-top: 30px;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    width: 170px;
+    margin-top: -15px;
+}
+
+.check2 {
+    display: flex;
+}
+
+.checkbox p {
+    font-size: 15px;
+}
+
+.checkbox1 p {
+    font-size: 15px;
+}
+
+.check2 input {
+    display: inline-block;
+    vertical-align: text-top;
+    width: 18px;
+    height: 18px;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+
+.check input {
+    display: inline-block;
+    vertical-align: text-top;
+    width: 16px;
+    height: 16px;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.vehica-checkbox input:checked+label:before {
+    background: #ff6900 !important;
+    border-color: #ff6900 !important;
+}
+
+.login button {
+    width: 120px;
+    height: 50px;
+    background-color: #ff4605;
+    font-size: 17px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+input[type="checkbox"] {
+    background: #990000 !important;
+}
+
+#cb1 {
+    accent-color: #ff4605;
+    border: none;
+}
+
+.check p {
+    height: 0px;
+    margin-left: 10px !important;
+}
+
+.check2 p {
+    height: 0px;
+    margin-left: 10px !important;
+}
+
+.forgot:hover {
+    color: #ff4605;
+}
+
+.forgot {
+    color: black;
+}
+
+.privacy {
+    color: #ff4605;
+    margin-left: 8px;
+}
+
+.registratsiya button {
+    width: 120px;
+    height: 50px;
+    background-color: #ff4605;
+    font-size: 17px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.asos_form h2 {
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 900;
+    margin-bottom: 9px;
+}
+
+.asos_form h3 {
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: 400;
+}
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+@media(max-width:530px) {
+    .asos_form {
+        width: 90%;
+    }
+}

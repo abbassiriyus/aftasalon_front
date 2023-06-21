@@ -1,0 +1,386 @@
+.search_top {
+    width: 100%;
+    padding: 20px 10vw;
+    background-color: #e7e9ee;
+}
+
+.search_top_body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inpsearch {
+    width: 260px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.searchInp {
+    width: 260px;
+    height: 55px;
+    background-color: #fff;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.boxPrice {
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+}
+.input_year{
+    width: 260px;
+    height: 50px;
+    border-radius: 5px 0 0 5px;
+}
+.priceInp1 {
+    width: 49.5%;
+    border-radius: 5px 0 0 5px;
+}
+
+.priceInp2 {
+    width: 49.5%;
+    border-radius: 0 5px 5px 0;
+}
+
+.mobile_search {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 20px 5%;
+    z-index: 99;
+    display: none;
+}
+
+.mobile_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.db {
+    display: block;
+}
+
+.closeModalMob {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.searchBox {
+    width: 49%;
+    margin-top: 10px;
+}
+
+.inpsearch2 {
+    width: 100%;
+}
+
+.mobile_body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.searchInp2 {
+    width: 49% !important;
+}
+
+.boxprice2 {
+    width: 49% !important;
+}
+
+.priceinp {
+    width: 49.5% !important;
+}
+
+.btnOpen {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #ccc;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #ccc;
+    display: none;
+}
+
+.btnSearch {
+    width: 90%;
+    height: 50px;
+    color: #fff;
+    border: none;
+    background-color: #ff6505;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 10px;
+    right: 5%
+}
+
+.btnSearch:hover {
+    background-color: #fff;
+    color: #ff6505;
+    border: 1px solid #ff6505;
+}
+
+.search_body {
+    width: 100%;
+    padding: 0 10vw;
+}
+
+.body_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.top_box {
+    display: flex;
+    align-items: center;
+}
+
+.top_box p {
+    margin-right: 15px;
+}
+
+.featured_img {
+    width: 100%;
+    height: 80%;
+    transition: .8s;
+}
+
+.feat_card2 {
+    width: 23%;
+    height: 350px;
+    position: relative;
+    cursor: pointer;
+    bottom: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 12px;
+    box-shadow: 0 0 10px #99a1b2;
+    margin-top: 20px;
+}
+
+.featCard_bottom {
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #2c2c2c;
+    padding: 10px 20px;
+}
+
+.featCard_box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    border-top: 1px solid #ccc;
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+
+.featCard_box>p {
+    color: #2c2c2c;
+    opacity: .5;
+    font-size: 15px;
+    margin-right: 30px;
+}
+
+.featCard_name {
+    width: 100%;
+    height: 25px;
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.featCard_price {
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: right;
+}
+
+.featCard_year {
+    background-color: #ff6505;
+    padding: 2px 8px;
+    border-radius: 5px;
+    color: #fff !important;
+    opacity: 1 !important;
+}
+
+.feat_card2:hover .featured_img {
+    transform: scale(1.1);
+}
+
+.feat_card2>.featured_img {
+    height: 68%;
+}
+
+.mobileFeat_card2 {
+    display: none;
+}
+
+.feat_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-right: 25px;
+}
+
+.feat_btn {
+    font-weight: 400;
+    font-size: 18px !important;
+    padding: 10px !important;
+}
+
+.feat_left {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feat_left>p {
+    color: #99a1b2;
+}
+
+.feat_tit {
+    display: none;
+    color: #99a1b2;
+}
+
+.result_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.css-19micn4-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+    background-color: #ff6505 !important;
+}
+
+.css-19micn4-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected:hover {
+    background-color: #ff6505 !important;
+}
+.css-1oj2twp-MuiPagination-root {
+    display: flex !important;
+}
+.css-wjh20t-MuiPagination-ul {
+    margin: 0 auto !important;
+    margin-top: 5% !important;
+}
+
+@media (max-width: 1320px) {
+    .inpsearch,
+    .boxPrice,
+    .searchInp {
+        width: 200px;
+    }
+
+    .priceInp1,
+    .priceInp2 {
+        width: 100px;
+    }
+
+    .search_top {
+        padding: 20px 2%;
+    }
+    .search_body {
+        padding: 0 2%;
+    }
+    .feat_card2 {
+        width: 31%;
+    }
+}
+@media (max-width: 1500px) {
+    .feat_card2 {
+        width: 30%;
+    }
+}
+@media (max-width: 1075px) {
+    .feat_card2 {
+        width: 28%;
+        height: 300px;
+    }
+}
+
+@media (max-width: 991px) {
+    .search_top_body {
+        display: none;
+    }
+    .feat_card2 {
+        width: 45%;
+        height: 350px;
+    }
+    .top_box p {
+        display: none;
+    }
+
+    .btnOpen {
+        display: block;
+    }
+}
+@media (max-width: 600px) {
+    .feat_card2 {
+        width: 100%;
+        height: 350px;
+    }
+    .body_top {
+        flex-direction: column;
+    }
+    .inpsearch3 {
+        width: 300px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .mobile_body {
+        flex-direction: column;
+    }
+
+    .searchInp2,    
+    .boxprice2,
+    .searchBox {
+        width: 260px !important;
+    }
+}
+
+.salesale{
+    font-size: 30px;
+    color: white;
+    text-shadow: -1px 2px red;
+    position: absolute;
+    right: 1px;
+}
+.feat-cardorab{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.feat-cardorab del{
+opacity: 0.6;
+}

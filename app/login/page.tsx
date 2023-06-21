@@ -1,11 +1,11 @@
 import React from 'react'
-import Home from './pages/js/Home'
-import Footer from './pages/js/Footer'
+import Footer from '../pages/js/Footer'
+import Login from '../pages/js/Login'
 
 export default function page() {
   return (
     <div>
-      <Home />
+      <Login />
       <Footer />
     </div>
   )

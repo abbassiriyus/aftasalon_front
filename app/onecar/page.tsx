@@ -1,11 +1,11 @@
 import React from 'react'
-import Home from './pages/js/Home'
-import Footer from './pages/js/Footer'
+import Footer from '../pages/js/Footer'
+import Bmw8 from '../pages/js/Bmw8'
 
 export default function page() {
   return (
     <div>
-      <Home />
+      <Bmw8 />
       <Footer />
     </div>
   )
