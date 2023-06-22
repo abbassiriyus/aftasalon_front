@@ -1,7 +1,7 @@
 import { FC } from "react"
 import React from 'react'
 import Footer from '../pages/js/Footer'
-import About from '../pages/js/About/page'
+import About from '../pages/js/About1/page'
 
 
 

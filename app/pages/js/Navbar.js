@@ -12,7 +12,7 @@ import url from "./Host";
 
 export default function Navbar() {
   const [count, setCount] = useState(false);
-  const [user, setUser] = useState((localStorage.getItem("onemen")?JSON.parse(localStorage.getItem("onemen")):false))
+  const [user, setUser] = useState(localStorage.getItem("onemen")!=null?JSON.parse(localStorage.getItem("onemen")):false)
  
 
   const googleTranslateElementInit = () => {

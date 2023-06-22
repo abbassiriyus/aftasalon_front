@@ -2,7 +2,7 @@ import { FC } from "react"
 import React from 'react'
 import Search from '../pages/js/Search'
 import Footer from '../pages/js/Footer'
-import About from '../pages/js/About/page'
+import About from '../pages/js/About1/page'
 import Contact from '../pages/js/Contact'
 
 

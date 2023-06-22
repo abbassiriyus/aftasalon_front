@@ -30,7 +30,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default function Bmw8() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   const [user, setUser] = useState(
-    localStorage.getItem("onemen") != null
+    localStorage.getItem("onemen")!=null
       ? JSON.parse(localStorage.getItem("onemen"))
       : false
   );
@@ -40,7 +40,7 @@ export default function Bmw8() {
 
   var [data, setData] = useState(
     JSON.parse(
-      localStorage.getItem("oneproduct")
+      localStorage.getItem("oneproduct")!=null
         ? `${localStorage.getItem("oneproduct")}`
         : "[]"
     )
